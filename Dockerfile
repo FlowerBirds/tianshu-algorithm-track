@@ -16,4 +16,4 @@ ENV LANG C.UTF-8
 
 RUN pip install --upgrade pip
 
-RUN pip install numpy scipy redis  opencv-python-headles
+RUN pip install numpy scipy redis  opencv-python-headless
