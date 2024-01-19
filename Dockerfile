@@ -10,7 +10,7 @@ ADD sources.list /etc/apt/
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 
-RUN  apt-get install -y --force-yes libavcodec-dev libavformat-dev libswscale-dev
+RUN  apt-get install -y --force-yes libavcodec-dev libavformat-dev libswscale-dev ccache libopenblas-dev libatlas-base-dev liblapack-dev
 
 ENV LANG C.UTF-8
 
