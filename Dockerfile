@@ -10,6 +10,8 @@ ADD sources.list /etc/apt/
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 
+ENV BLAS=open
+
 RUN  apt-get install -y --force-yes libavcodec-dev libavformat-dev libswscale-dev ccache libopenblas-dev libatlas-base-dev liblapack-dev openjdk-8-jdk libva-dev
 
 ENV LANG C.UTF-8
