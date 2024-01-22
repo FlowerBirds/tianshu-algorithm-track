@@ -37,5 +37,5 @@ jobs:
         platforms: linux/amd64
         push: true
         tags: |
-          flowerbirds/algorithm-track:v1
-          ghcr.io/flowerbirds/algorithm-track:v1
+          flowerbirds/algorithm-track:v2-py3.10
+          ghcr.io/flowerbirds/algorithm-track:v2-py3.10
