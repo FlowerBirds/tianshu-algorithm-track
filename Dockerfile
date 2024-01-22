@@ -18,4 +18,4 @@ ENV LANG C.UTF-8
 
 RUN pip install --upgrade pip
 
-RUN pip install numpy scipy redis  opencv-python-headless
+RUN pip install numpy scipy redis  opencv-python-headless==4.2.0.34
