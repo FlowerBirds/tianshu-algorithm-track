@@ -12,7 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update
 
 ENV CMAKE_ARGS=-DBLAS=open
 
-RUN  apt-get install -y --allow libavcodec-dev libavformat-dev libswscale-dev ccache libopenblas-dev libatlas-base-dev liblapack-dev libva-dev liblapacke-dev libatlas3-base
+RUN  apt-get install -y libavcodec-dev libavformat-dev libswscale-dev ccache libopenblas-dev libatlas-base-dev liblapack-dev libva-dev liblapacke-dev libatlas3-base
 
 ENV LANG C.UTF-8
 
